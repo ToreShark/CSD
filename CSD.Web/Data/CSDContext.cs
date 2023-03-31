@@ -9,5 +9,5 @@ public class CSDContext : DbContext
     {
     }
     public DbSet<Post> Posts { get; set; }
-    public DbSet<Category> Categories { get; set; }
+    public DbSet<Category> Category { get; set; }
 }
